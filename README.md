@@ -1,2 +1,32 @@
-# full-stack-lab-02
-Full Stack Lab 2
+# Full Stack Web Development - Lab 2
+
+## Topic
+Advanced CSS and Bootstrap Flex Utilities
+
+## Technologies Used
+- HTML5
+- CSS3
+- Bootstrap 5
+- VS Code
+- Git
+- GitHub
+
+## Concepts Covered
+- Advanced CSS
+- CSS Flexbox
+- CSS Positioning
+- CSS Display Properties
+- CSS Pseudo-elements
+- CSS Filters
+- CSS Transitions
+- CSS Transform
+- Bootstrap Flex Utilities
+
+## Project Description
+This project demonstrates advanced CSS layout and styling techniques together with Bootstrap Flex utilities.
+
+## Author
+Muhammad Awais Khan (GitHub: [AWAIS-KHAN12](https://github.com/AWAIS-KHAN12))
+
+## Lab
+Full Stack Web Development - Lab 2

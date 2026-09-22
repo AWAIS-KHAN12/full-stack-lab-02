@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Advanced CSS & Bootstrap Flex Utilities</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">Profile</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero-section">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <span class="badge bg-primary mb-3">
+                        Full Stack Web Development
+                    </span>
+
+                    <h1>Advanced CSS & Responsive Design</h1>
+
+                    <p>
+                        A responsive portfolio demonstrating advanced CSS,
+                        Flexbox, positioning, display properties, filters,
+                        transitions, transforms and Bootstrap utilities.
+                    </p>
+
+                    <a href="#skills" class="btn btn-light">
+                        Explore Skills
+                    </a>
+
+                </div>
+
+
+                <div class="profile-image-container">
+
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+                         alt="Web Development"
+                         class="profile-image">
+
+                    <span class="online-badge">
+                        Online
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROFILE SECTION ================= -->
+    <section id="profile" class="section-padding">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Profile</h2>
+            </div>
+
+            <div class="profile-card">
+
+                <h3>About Me</h3>
+
+                <p>
+                    I am a Computer Science student interested in web
+                    development and modern web technologies. This page
+                    demonstrates different CSS and Bootstrap techniques.
+                </p>
+
+                <a href="#contact" class="btn btn-primary">
+                    View Profile
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS SECTION ================= -->
+    <section id="skills" class="section-padding skills-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Skills</h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-box">
+                    <h4>HTML5</h4>
+                    <p>Web Page Structure</p>
+                </div>
+
+                <div class="skill-box">
+                    <h4>CSS3</h4>
+                    <p>Styling and Responsive Design</p>
+                </div>
+
+                <div class="skill-box">
+                    <h4>Bootstrap</h4>
+                    <p>Responsive UI Components</p>
+                </div>
+
+                <div class="skill-box">
+                    <h4>JavaScript</h4>
+                    <p>Web Interactivity</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section id="projects" class="section-padding">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Projects</h2>
+            </div>
+
+            <div class="project-container">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                         alt="Web Project">
+
+                    <div class="project-content">
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            A responsive website created using HTML,
+                            CSS and Bootstrap.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            View Project
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Project 2 -->
+                <div class="project-card">
+
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+                         alt="Coding Project">
+
+                    <div class="project-content">
+
+                        <h3>Programming Project</h3>
+
+                        <p>
+                            A programming project demonstrating
+                            problem solving and coding skills.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            View Project
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Project 3 -->
+                <div class="project-card">
+
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+                         alt="Data Project">
+
+                    <div class="project-content">
+
+                        <h3>Data Project</h3>
+
+                        <p>
+                            A project demonstrating data handling
+                            and modern development techniques.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            View Project
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BOOTSTRAP FLEX SECTION ================= -->
+    <section class="section-padding bootstrap-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Bootstrap Flexbox Demonstration</h2>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 bootstrap-flex-box">
+
+                <div class="flex-item">
+                    <strong>Item 1</strong>
+                    <p>Bootstrap Flex</p>
+                </div>
+
+                <div class="flex-item">
+                    <strong>Item 2</strong>
+                    <p>Justify Content</p>
+                </div>
+
+                <div class="flex-item">
+                    <strong>Item 3</strong>
+                    <p>Align Items</p>
+                </div>
+
+                <div class="flex-item">
+                    <strong>Item 4</strong>
+                    <p>Flex Wrap</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= POSITIONING SECTION ================= -->
+    <section class="section-padding">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>CSS Positioning</h2>
+            </div>
+
+            <div class="position-card">
+
+                <span class="featured-badge">
+                    Featured
+                </span>
+
+                <h3>Relative & Absolute Positioning</h3>
+
+                <p>
+                    This card uses relative positioning while the
+                    Featured badge uses absolute positioning.
+                </p>
+
+                <p>
+                    The navigation bar demonstrates sticky positioning
+                    using Bootstrap's sticky-top utility. A fixed
+                    position example is also displayed at the bottom.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DISPLAY PROPERTIES ================= -->
+    <section class="section-padding display-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>CSS Display Properties</h2>
+            </div>
+
+            <p class="text-center mb-4">
+                Examples of block, inline, inline-block and flex display.
+            </p>
+
+
+            <!-- Block -->
+            <div class="display-demo">
+
+                <h4>1. Display Block</h4>
+
+                <span class="display-block">
+                    Block Element
+                </span>
+
+            </div>
+
+
+            <!-- Inline -->
+            <div class="display-demo">
+
+                <h4>2. Display Inline</h4>
+
+                <span class="display-inline">
+                    Inline Element 1
+                </span>
+
+                <span class="display-inline">
+                    Inline Element 2
+                </span>
+
+            </div>
+
+
+            <!-- Inline Block -->
+            <div class="display-demo">
+
+                <h4>3. Display Inline-Block</h4>
+
+                <span class="display-inline-block">
+                    Inline Block 1
+                </span>
+
+                <span class="display-inline-block">
+                    Inline Block 2
+                </span>
+
+            </div>
+
+
+            <!-- Flex -->
+            <div class="display-demo">
+
+                <h4>4. Display Flex</h4>
+
+                <div class="display-flex">
+
+                    <div>Flex Item 1</div>
+                    <div>Flex Item 2</div>
+                    <div>Flex Item 3</div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Display None -->
+            <div class="display-demo">
+
+                <h4>5. Display None</h4>
+
+                <p>
+                    The following element is hidden using
+                    <strong>display: none;</strong>
+                </p>
+
+                <div class="display-none">
+                    This text is hidden.
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CSS EFFECTS ================= -->
+    <section class="section-padding effects-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>CSS Filters & Visual Effects</h2>
+            </div>
+
+            <div class="effects-container">
+
+                <!-- Grayscale -->
+                <div class="effect-card">
+
+                    <h4>Grayscale</h4>
+
+                    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72"
+                         alt="Grayscale Effect"
+                         class="grayscale-effect">
+
+                    <p>
+                        Grayscale removes color from the image.
+                    </p>
+
+                </div>
+
+
+                <!-- Blur -->
+                <div class="effect-card">
+
+                    <h4>Blur</h4>
+
+                    <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2"
+                         alt="Blur Effect"
+                         class="blur-effect">
+
+                    <p>
+                        Blur makes the image appear less sharp.
+                    </p>
+
+                </div>
+
+
+                <!-- Brightness -->
+                <div class="effect-card">
+
+                    <h4>Brightness</h4>
+
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c"
+                         alt="Brightness Effect"
+                         class="brightness-effect">
+
+                    <p>
+                        Brightness changes the light level of the image.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact" class="section-padding contact-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Contact</h2>
+            </div>
+
+            <div class="contact-box">
+
+                <h3>Get In Touch</h3>
+
+                <p>
+                    Email: example@email.com
+                </p>
+
+                <p>
+                    Phone: +92 300 0000000
+                </p>
+
+                <a href="mailto:example@email.com"
+                   class="btn btn-primary">
+                    Send Email
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container text-center">
+
+            <p>
+                &copy; 2026 My Portfolio | Advanced CSS & Bootstrap
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= FIXED POSITION DEMO ================= -->
+    <div class="fixed-demo">
+        Fixed Position
+    </div>
+
+
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
